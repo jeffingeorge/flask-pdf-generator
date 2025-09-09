@@ -2,11 +2,11 @@
 applications:
   - name: flask-pdf-app                # Your app name on Cloud Foundry
     memory: 128M                       # Adjust as needed
-    disk_quota: 256M
+    disk_quota: 512M
     instances: 1
     path: .                            # Current folder (contains app.py)
     buildpacks:
       - python_buildpack
     command: python main.py            # Entry point
     env:
-      FLASK_ENV: production
+      FLASK_ENV: production 
