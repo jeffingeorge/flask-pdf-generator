@@ -1,0 +1,12 @@
+{
+  "name": "Alice",
+  "age": 30,
+  "email": "alice@example.com",
+  "address": {
+    "street": "123 Main St",
+    "city": "Springfield",
+    "state": "IL",
+    "zip": "62704"
+  },
+  "intro":"I’m a detail-oriented and motivated individual with a strong passion for learning and continuous improvement.\nI enjoy working on projects that allow me to combine creativity with problem-solving. Whether collaborating with a team or working independently, I always strive to deliver high-quality results.\n\n In my free time, I enjoy exploring new technologies, reading, and contributing to my local community."
+}

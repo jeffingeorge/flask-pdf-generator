@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Info</title>
+    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"> -->
+    <style>
+       {{ css|safe }}
+    </style>
+</head>
+<body>
+    <h1>Hello, {{ data.name }}!</h1>
+    <p>
+        Here is your personalized report:<br>
+        Age: {{ data.age }}<br>
+        Email: {{ data.email }}<br>
+        Address:<br>
+        {{ data.address.street }}<br>
+        {{ data.address.city }}, {{ data.address.state }} - {{ data.address.zip }}<br><br>
+        Intro: - <br>
+        {{ data.intro.replace('\n','<br>')|safe }}
+        <br><br>
+        Thank you for using our service.<br>
+        Regards,<br>
+        The Team
+    </p>
+</body>
+</html>
