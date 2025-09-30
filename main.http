@@ -10,7 +10,8 @@ GET {{server}}/generatePDF
 POST {{server}}/generatePDF
 Content-Type: application/json
 
-{
+{ 
+  "template":"userInfo",
   "name": "Alice",
   "age": 30,
   "email": "alice@example.com",

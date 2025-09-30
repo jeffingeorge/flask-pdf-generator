@@ -23,5 +23,38 @@
         Regards,<br>
         The Team
     </p>
+    <table class="table"> 
+        <tr class="row">
+            <td>1</td>
+            <td>AA</td>
+            <td>{{data.intro or ' '}}</td>
+        </tr>
+        {{ ( ['2','BB',data.hobby] | split_to_multiple_rows(2) ) | safe }}
+        <!-- <tr class="row">
+            <td>2</td>
+            <td>BB</td>
+            <td>{{(data.hobby or ' ')|safe}}</td>
+        </tr> -->
+        <tr class="row">
+            <td>3</td>
+            <td>CC</td>
+            <td>{{data.hobby}}</td>
+        </tr>
+        <tr class="row">
+            <td>4</td>
+            <td>DD</td>
+            <td>{{data.hobby|safe}}</td>
+        </tr>        
+        <tr class="row">
+            <td>5</td>
+            <td>EE</td>
+            <td>{{data.hobby|safe}}</td>
+        </tr>
+        <tr class="row">
+            <td>6</td>
+            <td>FF</td>
+            <td>{{data.hobby|safe}}</td>
+        </tr>
+    </table>
 </body>
 </html>

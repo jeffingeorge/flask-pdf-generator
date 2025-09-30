@@ -1,4 +1,5 @@
 {
+  "template":"userInfo",
   "name": "Alice",
   "age": 30,
   "email": "alice@example.com",
@@ -8,5 +9,6 @@
     "state": "IL",
     "zip": "62704"
   },
-  "intro":"I’m a detail-oriented and motivated individual with a strong passion for learning and continuous improvement.\nI enjoy working on projects that allow me to combine creativity with problem-solving. Whether collaborating with a team or working independently, I always strive to deliver high-quality results.\n\n In my free time, I enjoy exploring new technologies, reading, and contributing to my local community."
+  "intro":"I’m a detail-oriented and motivated individual with a strong passion for learning and continuous improvement.\nI enjoy working on projects that allow me to combine creativity with problem-solving. Whether collaborating with a team or working independently, I always strive to deliver high-quality results.\n\n In my free time, I enjoy exploring new technologies, reading, and contributing to my local community.",
+  "hobby":"Football is a family of team sports that involve, to varying degrees, kicking a ball to score a goal. <br>Unqualified, the word football generally means the form of football that is the most popular where the word is used. Sports commonly called football include association football (known as soccer in Australia, Canada, South Africa, the United States, and sometimes in Ireland and New Zealand); Australian rules football; Gaelic football; gridiron football (specifically American football, arena football, or Canadian football); International rules football; rugby league football; and rugby union football.[1] These various forms of football share, to varying degrees, common origins and are known as football codes. <br>There are a number of references to traditional, ancient, or prehistoric ball games played in many different parts of the world.[2][3][4] Contemporary codes of football can be traced back to the codification of these games at English public schools during the 19th century, itself an outgrowth of medieval football.<br> The expansion and cultural power of the British Empire allowed these rules of football to spread to areas of British influence outside the directly controlled empire.<br> By the end of the 19th century, distinct regional codes were already developing: Gaelic football, for example, deliberately incorporated the rules of local traditional football games in order to maintain their heritage.[8] In 1888, the Football League was founded in England, becoming the first of many professional football associations. During the 20th century, several of the various kinds of football grew to become some of the most popular team sports in the world"
 }

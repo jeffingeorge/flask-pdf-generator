@@ -10,3 +10,45 @@
  p {
      font-size: 14px;
  }
+
+ .table {
+    border-collapse: collapse;
+ }
+ .table .row td {
+    border: 1px solid black;
+    padding-left: 2px;
+    padding-top: 2px;
+    word-wrap: break-word;
+ }
+
+ .splitRow td {
+    border: 0px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding-left: 2px;
+    padding-top: 2px;
+    word-wrap: break-word;
+ }
+
+ .splitRowSingle td {
+    border: 1px solid black;
+    padding-left: 2px;
+    padding-top: 2px;
+    word-wrap: break-word;
+ }
+
+  .splitRowFirst td {
+    border: 1px solid black;
+    border-bottom: 0px solid black;
+    padding-left: 2px;
+    padding-top: 2px;
+    word-wrap: break-word;
+ }
+
+  .splitRowLast td {
+    border: 1px solid black;
+    border-top: 0px solid black;
+    padding-left: 2px;
+    padding-top: 2px;
+    word-wrap: break-word;
+ }
